@@ -16,5 +16,5 @@ listOfDirs, listOfFiles = loopDirs(dirs)
 pprint(listOfDirs)
 pprint(listOfFiles)
 
-# [dir.create() for dir in listOfDirs]
-# [file.create() for file in listOfFiles]
+[dir.create() for dir in listOfDirs]
+[file.create() for file in listOfFiles]
