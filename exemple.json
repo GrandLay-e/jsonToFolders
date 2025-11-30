@@ -1,0 +1,200 @@
+{
+    "Type": "Folder",
+    "Name": "Documents",
+    "content": [
+        {
+            "Type": "Folder",
+            "Name": "Work",
+            "content": [
+                {
+                    "Type": "File",
+                    "Name": "Report.txt"
+                },
+                {
+                    "Type": "File",
+                    "Name": "Presentation.py"
+                },
+                {
+                    "Type": "Folder",
+                    "Name": "Projects",
+                    "content": [
+                        {
+                            "Type": "File",
+                            "Name": "Project1.md"
+                        },
+                        {
+                            "Type": "File",
+                            "Name": "Project2.md"
+                        },
+                        {
+                            "Type": "Folder",
+                            "Name": "SubProject",
+                            "content": [
+                                {
+                                    "Type": "File",
+                                    "Name": "SubProjectDetails.txt"
+                                },
+                                {
+                                    "Type": "Folder",
+                                    "Name": "Assets",
+                                    "content": [
+                                        {
+                                            "Type": "File",
+                                            "Name": "diagram.svg"
+                                        },
+                                        {
+                                            "Type": "Folder",
+                                            "Name": "Icons",
+                                            "content": [
+                                                {
+                                                    "Type": "File",
+                                                    "Name": "icon-16.png"
+                                                },
+                                                {
+                                                    "Type": "File",
+                                                    "Name": "icon-32.png"
+                                                },
+                                                {
+                                                    "Type": "Folder",
+                                                    "Name": "SvgVariants",
+                                                    "content": [
+                                                        {
+                                                            "Type": "File",
+                                                            "Name": "icon-alt.svg"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Folder",
+                                    "Name": "Archive",
+                                    "content": [
+                                        {
+                                            "Type": "File",
+                                            "Name": "old_notes.tar.gz"
+                                        },
+                                        {
+                                            "Type": "Folder",
+                                            "Name": ".hidden",
+                                            "content": [
+                                                {
+                                                    "Type": "File",
+                                                    "Name": "secrets.env"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Type": "Symlink",
+                    "Name": "LatestReport"
+                }
+            ]
+        },
+        {
+            "Type": "Folder",
+            "Name": "Personal",
+            "content": [
+                {
+                    "Type": "File",
+                    "Name": "Diary.docx"
+                },
+                {
+                    "Type": "Folder",
+                    "Name": "Photos",
+                    "content": [
+                        {
+                            "Type": "File",
+                            "Name": "Vacation.jpg"
+                        },
+                        {
+                            "Type": "File",
+                            "Name": "Family.png"
+                        },
+                        {
+                            "Type": "Folder",
+                            "Name": "2022",
+                            "content": [
+                                {
+                                    "Type": "File",
+                                    "Name": "beach.raw"
+                                },
+                                {
+                                    "Type": "Folder",
+                                    "Name": "Edited",
+                                    "content": [
+                                        {
+                                            "Type": "File",
+                                            "Name": "beach_final.jpg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Type": "Folder",
+                    "Name": "Music",
+                    "content": [
+                        {
+                            "Type": "File",
+                            "Name": "playlist.m3u"
+                        },
+                        {
+                            "Type": "Folder",
+                            "Name": "Albums",
+                            "content": [
+                                {
+                                    "Type": "Folder",
+                                    "Name": "FavoriteBand",
+                                    "content": [
+                                        {
+                                            "Type": "File",
+                                            "Name": "01 - Intro.mp3"
+                                        },
+                                        {
+                                            "Type": "File",
+                                            "Name": "02 - Hit Single.mp3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Type": "Folder",
+            "Name": "Shared",
+            "content": [
+                {
+                    "Type": "File",
+                    "Name": "MeetingNotes.pdf"
+                },
+                {
+                    "Type": "Folder",
+                    "Name": "Templates",
+                    "content": [
+                        {
+                            "Type": "File",
+                            "Name": "invoice_template.docx"
+                        },
+                        {
+                            "Type": "File",
+                            "Name": "contract_template.docx"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
