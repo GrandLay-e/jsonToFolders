@@ -1,11 +1,11 @@
 {
     "Type": "Folder",
     "Name": "Documents",
-    "content": [
+    "Content": [
         {
             "Type": "Folder",
             "Name": "Work",
-            "content": [
+            "Content": [
                 {
                     "Type": "File",
                     "Name": "Report.txt"
@@ -17,7 +17,7 @@
                 {
                     "Type": "Folder",
                     "Name": "Projects",
-                    "content": [
+                    "Content": [
                         {
                             "Type": "File",
                             "Name": "Project1.md"
@@ -29,7 +29,7 @@
                         {
                             "Type": "Folder",
                             "Name": "SubProject",
-                            "content": [
+                            "Content": [
                                 {
                                     "Type": "File",
                                     "Name": "SubProjectDetails.txt"
@@ -37,7 +37,7 @@
                                 {
                                     "Type": "Folder",
                                     "Name": "Assets",
-                                    "content": [
+                                    "Content": [
                                         {
                                             "Type": "File",
                                             "Name": "diagram.svg"
@@ -45,7 +45,7 @@
                                         {
                                             "Type": "Folder",
                                             "Name": "Icons",
-                                            "content": [
+                                            "Content": [
                                                 {
                                                     "Type": "File",
                                                     "Name": "icon-16.png"
@@ -57,7 +57,7 @@
                                                 {
                                                     "Type": "Folder",
                                                     "Name": "SvgVariants",
-                                                    "content": [
+                                                    "Content": [
                                                         {
                                                             "Type": "File",
                                                             "Name": "icon-alt.svg"
@@ -71,7 +71,7 @@
                                 {
                                     "Type": "Folder",
                                     "Name": "Archive",
-                                    "content": [
+                                    "Content": [
                                         {
                                             "Type": "File",
                                             "Name": "old_notes.tar.gz"
@@ -79,7 +79,7 @@
                                         {
                                             "Type": "Folder",
                                             "Name": ".hidden",
-                                            "content": [
+                                            "Content": [
                                                 {
                                                     "Type": "File",
                                                     "Name": "secrets.env"
@@ -101,7 +101,7 @@
         {
             "Type": "Folder",
             "Name": "Personal",
-            "content": [
+            "Content": [
                 {
                     "Type": "File",
                     "Name": "Diary.docx"
@@ -109,7 +109,7 @@
                 {
                     "Type": "Folder",
                     "Name": "Photos",
-                    "content": [
+                    "Content": [
                         {
                             "Type": "File",
                             "Name": "Vacation.jpg"
@@ -121,7 +121,7 @@
                         {
                             "Type": "Folder",
                             "Name": "2022",
-                            "content": [
+                            "Content": [
                                 {
                                     "Type": "File",
                                     "Name": "beach.raw"
@@ -129,7 +129,7 @@
                                 {
                                     "Type": "Folder",
                                     "Name": "Edited",
-                                    "content": [
+                                    "Content": [
                                         {
                                             "Type": "File",
                                             "Name": "beach_final.jpg"
@@ -143,7 +143,7 @@
                 {
                     "Type": "Folder",
                     "Name": "Music",
-                    "content": [
+                    "Content": [
                         {
                             "Type": "File",
                             "Name": "playlist.m3u"
@@ -151,11 +151,11 @@
                         {
                             "Type": "Folder",
                             "Name": "Albums",
-                            "content": [
+                            "Content": [
                                 {
                                     "Type": "Folder",
                                     "Name": "FavoriteBand",
-                                    "content": [
+                                    "Content": [
                                         {
                                             "Type": "File",
                                             "Name": "01 - Intro.mp3"
@@ -175,7 +175,7 @@
         {
             "Type": "Folder",
             "Name": "Shared",
-            "content": [
+            "Content": [
                 {
                     "Type": "File",
                     "Name": "MeetingNotes.pdf"
@@ -183,7 +183,7 @@
                 {
                     "Type": "Folder",
                     "Name": "Templates",
-                    "content": [
+                    "Content": [
                         {
                             "Type": "File",
                             "Name": "invoice_template.docx"

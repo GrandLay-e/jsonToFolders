@@ -5,7 +5,7 @@ from classes import File, Folder
 
 def GetJson(jsonFile):
     try: 
-        with open(jsonFile, 'r') as f:
+        with open(jsonFile, 'r', encoding='utf-8') as f:
             return json.load(f)
     except Exception as e:
         return e
@@ -28,6 +28,7 @@ def loopDirs(d, sep = 0, currentPath : Path = Path(""), listOfFolders = None, li
     if listOfFiles is None:
         listOfFiles = []
     # Loop through the dictionary
+    displayed = False
     for key, value in d.items(): 
         # If the value is a string, it could be a Folder or File
         if isinstance(value, str): 
@@ -40,10 +41,12 @@ def loopDirs(d, sep = 0, currentPath : Path = Path(""), listOfFolders = None, li
             elif value == "File": 
                 # Add File object (name, parentPath)
                 listOfFiles.append(File(d['Name'], currentPath) )
-            print(f" {'\t' * sep}{key} -> {value}") 
+            while not displayed: # Display the structure in console only once per folder/file
+                print(f" {'\t|____' * sep}{d['Name']}")
+                displayed = True
         
         # Recursive calls for nested content
-        if key == "content" and isinstance(value, list): 
+        if key == "Content" and isinstance(value, list): 
             for item in value: 
                 if isinstance(item, dict): 
                     loopDirs(item, sep + 1, currentPath, listOfFolders, listOfFiles) 
